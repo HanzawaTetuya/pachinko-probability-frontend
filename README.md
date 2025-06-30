@@ -1,16 +1,19 @@
-# project1
+# パチンコ確率計算 PWAサービス 開発 
+pachink-probability-frontend
 
-A new Flutter project.
+## 概要
+FlutterLaravelは今回初めて使用しました。AIを使用し完成ベースでの開発でしたので、正直、保守性や可読性等を重視せずに作成してしましました。
+以降はFlutterのAPIの件数を1フォルダに対して制限を設ける等設計を学習し、より保守性を重視した開発にしていきます。
+ディレクトリ管理などもわからないところから作成をしてしまったところもありますので、以降開発に関しては、より設計を重視して作成してまいります。
+初学者なりの工夫点などはありましたので【工夫したポイント】に記載します。
 
-## Getting Started
+クライアントから「確率計算をアプリで提供したい」という相談を受け、PWA形式でのサービス構築を
+提案し、開発からリリース後の保守まで一貫して対応。FlutterおよびLaravelは初使用でしたが、AI技術
+を活用しながら自学習を進め、安定稼働するサービスを構築。カスタマイズや改善対応も継続的に行いました
 
-This project is a starting point for a Flutter application.
+## 使用技術
+- HTML / CSS / JavaScript　/　Flutter　/　Laravel　
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 工夫したポイント
+- APIにてエラーの発生時に管理をしやすいようにデバックモード時のみの表示にするなどのリリース後の保守を簡易的にしやすいようにエラーコードを見やすくしました。
+- UXにも注意し、ユーザーが今どのような動作をどうしているのかなどを分かりやすい開発を目指しました。
